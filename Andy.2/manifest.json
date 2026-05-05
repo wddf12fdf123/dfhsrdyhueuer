@@ -1,0 +1,8 @@
+{
+  "name": "App de Soluciones Tecnologicas",
+  "short_name": "MiApp",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "rgba(213, 121, 255, 0.527);",
+    "theme_color": "#75dde0"
+}
