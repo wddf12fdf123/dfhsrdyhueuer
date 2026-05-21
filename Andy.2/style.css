@@ -1,6 +1,6 @@
 /* Configuración de la pantalla del celular */
 .contenedor-app {
-    background-color: #030303;
+    background-color: #5ec4a2;
     height: 100vh;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
@@ -8,11 +8,11 @@
 }
 
 .mi-header {
-    background-color: rgba(213, 121, 255, 0.527);
-    color: rgb(29, 29, 29);
+    background-color: #ffffff; /* Verde institucional */
+    color: rgb(39, 114, 128);
     text-align: center;
     padding: 15px;
-    box-shadow: 0 2px 5px rgba(90, 163, 185, 0.527);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .contenido {
@@ -41,7 +41,7 @@
 /* Efecto al tocar la tarjeta (para que se sienta real) */
 .card:active {
     transform: scale(0.95);
-    background-color: #98a5dd;
+    background-color: #44707e;
 }
 
 .icon {
@@ -52,106 +52,6 @@
 
 h3 {
     font-size: 14px;
-    color: #333;
+    color: #1c3979;
     margin: 0;
 }
-    body {
-    margin: 0;
-    background: linear-gradient(135deg, #1a1a2e, #2e1a2e, #3a1c3f);
-    font-family: 'Georgia', serif;
-    color: #f8e1ec;
-}
-
-/* Contenedor principal */
-.contenedor-app {
-    padding: 20px;
-    text-align: center;
-}
-
-/* Título */
-.mi-header h1 {
-    font-size: 2.5rem;
-    color: #ffb6c1;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-}
-
-/* Poema */
-.poema {
-    max-width: 600px;
-    margin: 0 auto 30px;
-    padding: 20px;
-    background: rgba(255, 182, 193, 0.08);
-    border-radius: 15px;
-    backdrop-filter: blur(6px);
-}
-
-.poema h6 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 1.9;
-    margin: 20px 0;
-    color: #f3d6e4;
-    transition: all 0.3s ease;
-}
-
-.poema h6:hover {
-    transform: scale(1.03);
-    opacity: 0.9;
-}
-
-/* BOTONES (mejorados pero mismos IDs y estructura) */
-.grid-servicios {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 10px;
-}
-
-.card {
-    background: rgba(255, 182, 193, 0.1);
-    border-radius: 15px;
-    padding: 20px;
-    width: 120px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(5px);
-}
-
-.card:hover {
-    transform: translateY(-5px) scale(1.05);
-    background: rgba(255, 182, 193, 0.2);
-}
-
-.icon {
-    font-size: 30px;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.card h3 {
-    margin: 0;
-    color: #ffd1dc;
-}
- /* CONTENEDOR */
-.poema {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* ESTROFAS */
-.estrofa {
-    text-align: center !important;
-    display: block;
-    margin: 25px auto;
-    line-height: 1.8;
-    font-weight: normal;
-}
-
-/* IMPORTANTE: centra también los saltos de línea */
-.estrofa br {
-    display: block;
-    content: "";
-    margin: 6px 0;
-}   
